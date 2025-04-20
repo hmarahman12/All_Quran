@@ -50,6 +50,7 @@ nav {
     width: 200px;
     margin: 5px;
     transition: ease 0.5s;
+    z-index: 1 !important;
 }
 .dorp_down ul {
     display: none;
@@ -63,10 +64,66 @@ nav {
     border-radius: 3px;
 }
 
-@media only screen and (max-width: 1199px) {
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pagess {
+    background: #fff;
+    border: 1px dotted #939393;
+    border-radius: 3px;
+    box-shadow: 0px 1px 24px 0px #787878;
+    text-align: center;
+}
+.page-head {
+    display: flex;
+    font-size: 12px;
+    margin: 5px 0 0 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.page-body {
+    border: 1px solid;
+    border-radius: 3px;
+}
+.line {
+    border: 1px solid #656464;
+    margin: 3px;
+    padding: 5px 0 0 0;
+}
+span.arabic {
+    font-size: 20px;
+}
+span.ban {
+    font-size: 12px;
+    font-weight: 100;
+}
+.text {
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 1222px){
+    .container{
+        width: 100%;
+        margin: 5px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    body::-webkit-scrollbar{
+        width: 0;
+    }
     .container{
         width: 98%;
         margin: 5px;
+    }
+    .logo img{
+        width: 25px;
     }
     .menu i{
         display: block !important;
@@ -77,7 +134,10 @@ nav {
         display: none;
     }
     nav {
-        position: relative;
+        position: fixed;
+        width: 90%;
+        top: 2px;
+        z-index: 1 !important;
     }
     ul.active {
         display: block;
@@ -91,6 +151,89 @@ nav {
     }
     .dorp_down ul{
         left: -35px;
+    }
+    .menu ul li:hover .dorp_down ul{
+        display: none;
+    }
+    .clickblock{
+        display: block !important;
+    }
+    .pages{
+        flex-direction: column !important;
+        position: relative;
+    }
+    .pagess{
+        margin: 55px auto !important;
+    }
+    .page-body{
+        margin: 15px 5px;
+    }
+    .line {
+        margin: 1px;
+        padding: 5px 0 0 0;
+        position: relative;
+        height: 50px;
+    }
+    .line span {
+        position: absolute;
+        /* background: #fff; */
+        height: 100%;
+        text-align: center;
+        right: 0;
+        padding: 2px 5px;
+    }
+    span.arabic {
+        font-size: 18px;
+    }
+    span.hedden{
+        color: rgba(255, 255, 255, 0);
+    }
+    span.ban,hr {
+        display: none;
+    }
+    span.ban {
+        font-size: 12px;
+        font-weight: 100;
+        bottom: -4px;
+        height: unset !important;
+    }
+    .activee{
+        position: absolute;
+        display: block !important;
+        width: 100%;
+        font-size: 8px;
+        bottom: 15px;
+    }
+    mark#mark {
+        color: #fff;
+    }
+
+    .text {
+        width: 18%;
+        display: flex !important;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .page-fotter {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 5px;
+    }
+
+    .flipbook {
+        display: none;
+    }
+    .pages{
+        display: block !important;
+    }
+    .btn{
+        width: 46% !important;
+        font-size: 15px !important;
+        padding: 0 !important;
+    }
+    button.btn.record {
+        width: 53% !important;
     }
 
 }

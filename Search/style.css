@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root {
+  --primary-color: #356aff;
+  --bg-color: #fff;
+  --text-color: #000;
+  --light-text-color: #a5a5a5;
+  --body-bg-color: #f5f5f5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+} */
+.containerr {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bg-color);
+}
+
+.containerr .options p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--light-text-color);
+}
+.search-ber {
+  position: relative;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 60px;
+  padding: 20px;
+  width: 65%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+button.btn.record {
+  position: absolute;
+  bottom: 0;
+}
+.btn ion-icon {
+  font-size: 30px;
+}
+.btn:disabled {
+  background-color: var(--light-text-color);
+  cursor: not-allowed;
+}
+.containerr .record img {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.containerr .record.recording img {
+  display: block;
+}
+.containerr .record.recording ion-icon {
+  display: none;
+}
+.containerr .result {
+  width: 100%;
+  min-height: 500px;
+  padding: 10px;
+  border: 1px solid var(--light-text-color);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+.containerr .result p {
+  display: inline;
+  margin-left: 3px;
+  color: var(--light-text-color);
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+textarea.interim {
+  width: 100%;
+  height: 420px;
+  font-size: 20px;
+}
+input.btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35%;
+  height: 60px;
+  font-size: 20px;
+  background: #356aff;
+  outline: none;
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  color: #fff;
+}
