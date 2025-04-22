@@ -33,7 +33,19 @@ document.querySelectorAll("input#button").forEach((singuleButton) =>{
 
 //array
 
-let allPages = {page_1:["hdhghddh Line=1","hdhghddh Line=2","hdhghddh Line=3","hdhghddh Line=4","hdhghddh Line=5","hdhghddh Line=6","hdhghddh Line=7","hdhghddh Line=8","hdhghddh Line=9","hdhghddh Line=10"],page_2:["hdhghddh 2"],page_3:["hdhghddh 3"],page_4:["hdhghddh 4"],page_5:["hdhghddh g5"],page_6:["hdhghddh 6"]}
+
+
+if (window.innerWidth < 900) {
+    console.log("Mobile view");
+    document.querySelector(".flipbook").classList.toggle("addClass")
+} else {
+    console.log("Desktop view");
+    document.querySelector(".mbaile-menu").innerHTML = '';
+}
+
+
+
+
 
 
 

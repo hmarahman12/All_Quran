@@ -92,27 +92,31 @@ function stopRecording() {
 
 //searching 2//////////////
 
-function search() {
-  const query = document.querySelector("textarea#hidden").value.trim().toLowerCase();
-  const spans = document.querySelectorAll(".line span.hedden");
-  let anyMatch = false;
+  // function search() {
+  //   const query = document.querySelector("textarea#hidden").value.trim().toLowerCase();
 
-  spans.forEach(span => {
-    const originalText = span.textContent;
-    const lowerText = originalText.toLowerCase();
+  //     const spans = document.querySelectorAll(".line span.hedden");
+  //     let anyMatch = false;
 
-    if (query && lowerText.includes(query)) {
-      const regex = new RegExp(`(${query})`, 'gi');
-      span.innerHTML = originalText.replace(regex, '<mark id="mark">$1</mark>');
-      document.querySelector(".result2").innerHTML = originalText.replace(regex, '<mark><a href="#mark">$1</a></mark>');
-      anyMatch = true;
-    } else {
-      span.innerHTML = originalText;
-    }
-  });
+  //     spans.forEach(span => {
+  //       const originalText = span.textContent;
+  //       const lowerText = originalText.toLowerCase();
 
-  // Optional: hide all if no matches
-  if (!anyMatch && query !== "") {
-    document.getElementById("results").innerHTML = `<p class="no-match">No matches found.</p>`;
-  }
-}
+  //       if (query && lowerText.includes(query)) {
+  //         const regex = new RegExp(`(${query})`, 'gi');
+  //         span.innerHTML = originalText.replace(regex, '<mark id="mark">$1</mark>');
+  //         document.querySelector(".result2").innerHTML = originalText.replace(regex, '<mark><a href="#mark">$1</a></mark>');
+  //         anyMatch = true;
+  //       } else {
+  //         span.innerHTML = originalText;
+  //       }
+  //     });
+
+  //     // Optional: hide all if no matches
+  //     if (!anyMatch && query !== "") {
+  //       document.getElementById("results").innerHTML = `<p class="no-match">No matches found.</p>`;
+  //     }
+    
+  // }
+
+  
