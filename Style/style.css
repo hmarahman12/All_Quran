@@ -285,4 +285,20 @@ span.ban {
         padding: 3px;
         cursor: pointer;
     }
+    .alQuranSura span a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .page-body.sura-fateha span,.page-body.sura-bakara span {
+        text-align: center;
+        left: 0;
+        font-size: 30px;
+    }
+    .page-body.sura-fateha .line:first-child,.page-body.sura-bakara .line:first-child{
+        border-bottom: none !important;
+    }
+    .page-body.sura-fateha .line:nth-child(2),.page-body.sura-bakara .line:nth-child(2){
+        border-top: none !important;
+    }
 }
