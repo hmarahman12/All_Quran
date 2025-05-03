@@ -188,7 +188,7 @@ span.ban {
         padding: 2px 5px;
     }
     span.arabic {
-        font-size: 18px;
+        font-size: 13px;
     }
     span.hedden{
         color: rgba(255, 255, 255, 0);
@@ -293,12 +293,15 @@ span.ban {
     .page-body.sura-fateha span,.page-body.sura-bakara span {
         text-align: center;
         left: 0;
-        font-size: 30px;
+        font-size: 21px;
     }
     .page-body.sura-fateha .line:first-child,.page-body.sura-bakara .line:first-child{
         border-bottom: none !important;
     }
     .page-body.sura-fateha .line:nth-child(2),.page-body.sura-bakara .line:nth-child(2){
         border-top: none !important;
+    }
+    div#sura-bakara {
+        height: unset !important;
     }
 }
