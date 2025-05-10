@@ -42,14 +42,3 @@ if (window.innerWidth < 900) {
     console.log("Desktop view");
     document.querySelector(".mbaile-menu").innerHTML = '';
 }
-
-
-
-
-
-
-
-
-
-
-
