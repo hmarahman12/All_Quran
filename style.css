@@ -49,9 +49,16 @@
     margin-bottom: 10px;
 }
 
-div#sura-fatihah,div#sura-bakara,.hard.page.p2.even,.page.p1.odd,.newClass,.hard.page.p20.even,.hard.page.p21.odd {
-    height: 699px !important
-}
+/* div#sura-fatihah,div#sura-bakara,.hard.page.p2.even,.page.p1.odd,.newClass,.hard.page.p20.even,.hard.page.p21.odd {
+    height: 699px !important;
+} */
 .para-All div#sura-fatihah .page-body .line,.para-All div#sura-bakara .page-body .line {
     width: 100% !important;
+}
+
+.line.suraMaida1 {
+    border-bottom: none;
+}
+.line.suraMaida2 {
+    border-top: none;
 }
