@@ -6,38 +6,37 @@ function allParaANDsura(){
         <div class="alQuran">
             <div class="alQuranPara">
                 <span onclick="para1()">পাড়া : ১</span>
-                <span onclick="para2()">পাড়া : ১</span>
-                <span onclick="para3()">পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
-                <span>পাড়া : ১</span>
+                <span onclick="para2()">পাড়া : ২</span>
+                <span onclick="para3()">পাড়া : ৩</span>
+                <span onclick="para4()">পাড়া : ৪</span>
+                <span onclick="para5()">পাড়া : ৫</span>
+                <span onclick="para6()">পাড়া : ৬</span>
+                <span onclick="para7()">পাড়া : ৭</span>
+                <span onclick="para8()">পাড়া : ৮</span>
+                <span onclick="para9()">পাড়া : ৯</span>
+                <span onclick="para10()">পাড়া : ১০</span>
+                <span onclick="para11()">পাড়া : ১১</span>
+                <span onclick="para12()">পাড়া : ১২</span>
+                <span onclick="para13()">পাড়া : ১৩</span>
+                <span onclick="para14()">পাড়া : ১৪</span>
+                <span onclick="para15()">পাড়া : ১৫</span>
+                <span onclick="para16()">পাড়া : ১৬</span>
+                <span onclick="para17()">পাড়া : ১৭</span>
+                <span onclick="para18()">পাড়া : ১৮</span>
+                <span onclick="para19()">পাড়া : ১৯</span>
+                <span onclick="para20()">পাড়া : ২০</span>
+                <span onclick="para21()">পাড়া : ২১</span>
+                <span onclick="para22()">পাড়া : ২২</span>
+                <span onclick="para23()">পাড়া : ২৩</span>
+                <span onclick="para24()">পাড়া : ২৪</span>
+                <span onclick="para25()">পাড়া : ২৫</span>
+                <span onclick="para26()">পাড়া : ২৬</span>
+                <span onclick="para27()">পাড়া : ২৭</span>
+                <span onclick="para28()">পাড়া : ২৮</span>
+                <span onclick="para29()">পাড়া : ২৯</span>
+                <span onclick="para30()">পাড়া : ৩০</span>
             </div>
+            
             <div class="alQuranSura">
                 <span onclick="para1()"><a href="#sura-fatihah">সূরা : الفاتحة</a></span>
                 <span onclick="para1()"><a href="#sura-fatihah">সূরা : الفاتحة</a></span>
@@ -87,32 +86,66 @@ function para1(){
     if(document.querySelector(".alQuran")){
         document.querySelector(".alQuran").style.display = "none";
     }
-    for (para1_1 of para1Array) {
-        document.querySelector(".para-All").innerHTML += para1_1;
+    for (para of para1Array) {
+        document.querySelector(".para-All").innerHTML += para;
         
     }
 }
-
-
 function para2(){
     if(document.querySelector(".alQuran")){
         document.querySelector(".alQuran").style.display = "none";
     }
-    for (para1_1 of para1Array) {
-        document.querySelector(".para-All").innerHTML += para1_1;
+    for (para of para2Array) {
+        document.querySelector(".para-All").innerHTML += para;
         
     }
 }
-
 function para3(){
     if(document.querySelector(".alQuran")){
         document.querySelector(".alQuran").style.display = "none";
     }
-    for (para1_1 of para1Array) {
-        document.querySelector(".para-All").innerHTML += para1_1;
+    for (para of para3Array) {
+        document.querySelector(".para-All").innerHTML += para;
         
     }
 }
+function para4(){
+    if(document.querySelector(".alQuran")){
+        document.querySelector(".alQuran").style.display = "none";
+    }
+    for (para of para4Array) {
+        document.querySelector(".para-All").innerHTML += para;
+        
+    }
+}
+function para5(){
+    if(document.querySelector(".alQuran")){
+        document.querySelector(".alQuran").style.display = "none";
+    }
+    for (para of para5Array) {
+        document.querySelector(".para-All").innerHTML += para;
+        
+    }
+}
+function para6(){
+    if(document.querySelector(".alQuran")){
+        document.querySelector(".alQuran").style.display = "none";
+    }
+    for (para of para6Array) {
+        document.querySelector(".para-All").innerHTML += para;
+        
+    }
+}
+function para7(){
+    if(document.querySelector(".alQuran")){
+        document.querySelector(".alQuran").style.display = "none";
+    }
+    for (para of para7Array) {
+        document.querySelector(".para-All").innerHTML += para;
+        
+    }
+}
+
 
 function search(){
     const query = document.querySelector("textarea#hidden").value.trim().toLowerCase();
@@ -120,7 +153,6 @@ function search(){
         document.querySelector(".containerr").style.display = "none";
         para1();
         para2();
-        para3();
 //ayat Searche//////////////
         setTimeout(() => {
             const spans = document.querySelectorAll(".line span.hedden");
@@ -170,15 +202,20 @@ if(window.innerWidth > 800){
 }else if (window.innerWidth < 800) {
 
     document.querySelector(".mbaile-menu").innerHTML = `
-        <a href=""><img id="home" src="./pic/home (1).png" alt=""></a>
-        <img id="books" src="./pic/book.png" alt="">
-        <img id="quran" src="./pic/quran.png" alt="" onclick="para_sura()">
-        <img id="search" src="./pic/search.png" alt="">
-        <img id="menu-bar" src="./pic/menu-bar.png" alt="">
+        <img id="home" src="./pic/home (1).png" alt="" onclick="home()">
+        <img id="books" onclick="books()" src="./pic/book.png" alt="">
+        <img id="calender" src="./pic/book.png" alt="">
+        <img id="quran" onclick="quran()" src="./pic/quran.png" alt="" onclick="para_sura()">
+        <img id="search" onclick="search()" src="./pic/search.png" alt="">
+        <img id="menu-bar" onclick="menu_bar()" src="./pic/menu-bar.png" alt="">
         `;
 
+        function home(){
+            search()
+            
+        }
     //All Books
-    document.querySelector("img#books").addEventListener('click',function(){
+    function books(){
         document.querySelector(".para-All").innerHTML = '';
         document.querySelector(".mobile-div").innerHTML = `
             <div class="alQuran">
@@ -193,22 +230,22 @@ if(window.innerWidth > 800){
             </div>
         `;
         document.querySelector(".containerr").style.display = "none";
-    })
-
-
-
-
-    document.querySelector("img#quran").addEventListener('click',function(){
+    }
+    //allParaANDsura
+    function quran(){
         allParaANDsura()
-    })
+    }
     //Searche ber
-    document.querySelector("img#search").addEventListener('click',function(){
+    function search(){
+        document.querySelector(".mobile-div").innerHTML = '';
         document.querySelector(".para-All").innerHTML = '';
         document.querySelector(".containerr").style.display = "block";
-    })
-    
-
-
-
+    }
+    //menu ber
+    function menu_bar(){
+        document.querySelector(".para-All").innerHTML = '';
+        document.querySelector(".containerr").style.display = "none";
+        document.querySelector(".mobile-div").innerHTML = `<span>Coming Son</span>`
+    }
 }
 
